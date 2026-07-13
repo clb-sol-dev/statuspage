@@ -18,9 +18,9 @@
     "n8n:HTTPS": {
       "host": "n8n",
       "service": "HTTPS",
-      "status": "WARNING",
-      "output": "HTTP WARNING: HTTP/1.1 404 Not Found - 448 bytes in 0.251 second response time",
-      "last_update": "2026-07-13T08:19:55.734257Z"
+      "status": "OK",
+      "output": "HTTP OK: HTTP/1.1 200 OK - 18668 bytes in 0.281 second response time",
+      "last_update": "2026-07-13T08:34:55.430818Z"
     },
     "n8n:SSL Certificate": {
       "host": "n8n",
@@ -37,7 +37,7 @@
       "last_update": "2026-07-13T08:24:38.355392Z"
     }
   },
-  "overall_status": "impaired",
+  "overall_status": "operational",
   "display_name": "n8n",
   "is_group": false
 }
