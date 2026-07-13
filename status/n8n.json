@@ -32,9 +32,9 @@
     "n8n:Workflows": {
       "host": "n8n",
       "service": "Workflows",
-      "status": "OK",
-      "output": "OK: n8n Workflows: 1 Successful, 0 Queued, 0 Failed in last 15 min",
-      "last_update": "2026-07-10T12:35:29.246906Z"
+      "status": "CRITICAL",
+      "output": "CRITICAL: API Access Error: 429 Client Error: Too Many Requests for url: https://n8n.clb-sol.dev/api/v1/executions?limit=250",
+      "last_update": "2026-07-13T08:10:31.305069Z"
     }
   },
   "overall_status": "critical",
