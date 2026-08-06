@@ -32,9 +32,9 @@
     "n8n:Workflows": {
       "host": "n8n",
       "service": "Workflows",
-      "status": "OK",
-      "output": "OK: n8n Workflows: 0 Successful, 0 Queued, 0 Failed in last 15 min",
-      "last_update": "2026-07-24T11:24:42.176915Z"
+      "status": "CRITICAL",
+      "output": "CRITICAL: API Access Error: HTTPSConnectionPool(host=n8n.clb-sol.dev, port=443): Read timed out. (read timeout=15)",
+      "last_update": "2026-08-06T04:08:28.089847Z"
     }
   },
   "overall_status": "critical",
